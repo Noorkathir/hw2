@@ -4,7 +4,8 @@ void main() {
  
  sprtnumandletter("noor556");
  oddevennum(6);
- reversechar("Fluttercourse");
+ String rev = reversechar("flutter");
+ print(rev);
 
 }
 
@@ -32,6 +33,6 @@ void oddevennum(int number) {
   }
 }
 
-void reversechar(String str) {
-  print(str.split('').reversed.join(''));
+String reversechar(String str) {
+  return (str.split('').reversed.join(''));
 }
